@@ -3,12 +3,12 @@ const ListMovies = (props) => {
   const categories = props.datas.map((elem, index) => {
     movie = props.datas[index].images.map((elem, index) => {
       console.log(elem);
-      return <div>{elem}</div>;
+      return <img src={elem} />;
     });
     return (
       <section>
         <h1>{elem.category}</h1>
-        <img src={movie} />
+        {movie}
       </section>
     );
   });
