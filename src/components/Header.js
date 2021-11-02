@@ -1,5 +1,11 @@
+import logo from "../assets/img/logo.png";
+
 const Header = () => {
-  return <header></header>;
+  return (
+    <header>
+      <img src={logo} />
+    </header>
+  );
 };
 
 export default Header;

@@ -1,9 +1,9 @@
 import ListMovies from "./ListMovie";
 
-const Main = (props) => {
+const Main = (pItems) => {
   return (
     <main>
-      <ListMovies datas={props.datas} />
+      <ListMovies items={pItems.items} />
     </main>
   );
 };

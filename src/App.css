@@ -1,0 +1,35 @@
+html {
+  background-color: black;
+  margin-left: 60px;
+}
+
+header img {
+  width: 140px;
+  margin-top: 45px;
+  margin-bottom: 70px;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+section {
+}
+
+.carousel {
+  display: flex;
+  margin-bottom: 55px;
+  overflow-x: hidden;
+}
+
+.carousel:hover {
+  overflow-x: scroll;
+}
+
+.carousel img {
+  margin-right: 15px;
+}
